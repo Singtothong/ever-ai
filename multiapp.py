@@ -43,6 +43,6 @@ class MultiApp:
         app = st.selectbox(
             'Please select a service',
             self.apps,
-            format_func=lambda app: app['title'],index=15)
+            format_func=lambda app: app['title'],index=17)
 
         app['function']()
